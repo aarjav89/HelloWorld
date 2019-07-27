@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> :: My Travel Website ::</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+ <link type="text/css" href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+ <div class="row"> <!-- start 1st row -->
+ 	<div class="col-lg-9">
+     <!-- <h1> <a class="navbar-brand" href="index.html">Backpack2bus.ca </a> </h1> -->
+     <a href="index.html"><img src="images/logo.png"></a>
+    </div>
+    <div class="col-lg-3" id="header"> <!-- start row 1 column 2 -->
+    	<ul class="nav navbar-nav">
+        	<li> <a href="#"> Login</a>  </li> &nbsp;&nbsp;
+            <li> <a href="#">Re-print/Email Tkt </a></li> &nbsp;&nbsp;
+            <li> <a href="#"> Agent-Login </a> <li> &nbsp;&nbsp;
+         </ul>
+   	</div> <!-- end row 1 column 2 -->
+  </div>   <!-- end 1st row -->
+
+<div id="wrapper" class="container"> <!-- this will disable the overflowing of data on smaller screen and align everything in wrapper even when the window is resized -->
+  <nav class="navbar navbar-default">
+  <div class="row" id="secondrow"> <!-- start 2nd row -->
+  		<div class="col-lg-12"> <!-- start row 2 col 1 -->
+        	<ul class="nav navbar-nav">
+            	<li> <a href="index.html"> Home </a></li>
+                <li> <a href="aboutus.html"> About Us </a> </li>
+                <li class="active"> <a href="modify.html"> Modify Booking </a></li>
+                <li> <a href="contactus.html"> Contact Us </a> </li>
+              </ul>
+           </div> <!-- end row 2 col 1 -->
+  </div> <!-- end 2nd row -->
+  </nav>
+
+  <div id="header-form" align="justify">
+    <form id="tripdetails" class="form-inline">
+
+          <div class="row" style="margin-left:20px;">
+            <div class="col-lg-12">
+                 <h3>Manage your Booking</h3>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="row" style="margin-top:20px;margin-left:20px">
+              <div class="col-lg-12 col-md col-sm">
+                <label for="bref">Booking Reference: <sup>*</sup> </label>
+                <input type="text" class="form-control" id="from" value="BDQ7589J">
+              </div> <!-- end col -->
+            </div> <!-- end row -->
+
+            <div class="row" style="margin-top:20px;margin-left:20px">
+              <div class="col-lg-12 col-md col-sm">
+                 <label for="lname"> Last Name : <sup>*</sup></label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <input type="text" class="form-control" id="to" value="Singh">
+             </div> <!-- end col -->
+           </div> <!-- end row -->
+
+           <div class="row" style="margin-top:20px;margin-left:20px">
+             <div class="col-lg-12 col-md col-sm">
+                  <label for="phone"> Phone Number : <sup>*</sup></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <input type="text" class="form-control" id="Ongoing" value="6472523300">
+                </div> <!-- end col -->
+              </div> <!-- end row -->
+
+              <div class="row" style="margin-top:20px;margin-left:20px">
+                <div class="col-lg-12">
+                  <i>Note : All fields marked with <sup>*</sup> are mandatory to be filled</i>
+                </div>
+              </div>
+
+
+      </div> <!-- close form-group -->
+
+      <div class="row" style="margin-top:10px;">
+          <div class="col-lg-12 text-center" align="center">
+              <input type="button" class="btn btn-primary" value="Find My Booking" id="bookbtn">
+          </div>
+      </div> <!-- end row -->
+    </form>
+
+
+  </div> <!--end header-form div -->
+
+<div class="row">
+  <div class="col-lg-6">
+     <h3>
+       How to find your booking ?
+     </h3>
+     <p>
+       1. Enter your Booking Reference Number. It must be a confirmation number consisting of alphabets and numbers on the top right corner of your ticket. Please note that the reference number is case sensitve.<br><br>
+       2. Enter your Last name as you entered while making the booking.<br> <br>
+       3. Enter your Phone number registed with us. It is that number which you provided while making the booking. <br> <br>
+
+       On pressing the Find my booking button, you will be showed options such as :
+       <ul>
+         <li> Cancel your reservation </li>
+         <li> Resend the Ticket via SMS / Whatsapp / Email </li>
+         <li> Print your ticket </li>
+       </ul>
+     </p>
+     <br><br>
+     <h5> Still if you need any assistance, feel free to contact us on 1800-456-BOOK, or write to us at helpdesk@backpack2bus.ca
+     </h5>
+  </div>
+
+  <div class="col-lg-6 text-center">
+      <img src="images/managebooking.png">
+  </div>
+</div>
+
+
+</div> <!-- end wrapper -->
+
+    <div id="footer" class="row">
+         <div class="col-lg-3">
+           <h1> Shortcut links </h1>
+              <ul>
+                <li> <a href="#" class="btn"> Contact us </a> </li>
+                <li> <a href="#" class="btn"> Mobile Version </a> </li>
+                <li> <a href="#" class="btn"> Current offers </a> </li>
+                <li> <a href="#" class="btn"> Values </a> </li>
+              </ul>
+         </div>
+
+         <div class="col-lg-3">
+           <h1> Info </h1>
+              <ul>
+                <li> <a href="#" class="btn"> Terms and conditions </a> </li>
+                <li> <a href="#" class="btn"> Privacy Policy </a> </li>
+                <li> <a href="#" class="btn"> Frequently Asked Questions </a> </li>
+                <li> <a href="#" class="btn"> Refund Policy </a> </li>
+              </ul>
+         </div>
+
+         <div class="col-lg-3">
+           <h1> Associates </h1>
+              <ul>
+                <li> <a href="#" class="btn"> XYZ Travels </a> </li>
+                <li> <a href="#" class="btn"> ABC Travels </a> </li>
+                <li> <a href="#" class="btn"> DEF Travels </a> </li>
+                <li> <a href="#" class="btn"> GHI Travels </a> </li>
+              </ul>
+         </div>
+
+         <div class="col-lg-3">
+           <p>
+             Backpack2bus is the world's best online bus ticket booking service trusted by over 17 million happy customers globally.
+             Backpack2bus offers bus ticket booking through its website,iOS and Android mobile apps for all major routes.
+           </p>
+
+           <p>
+             Copyright &copy; 2019 Backpack2bus.com . All rights reserved. <br>
+             Site designed by: <a href="#" style="color:white;"> Aarjav </a>
+           </p>
+         </div>
+     </div> <!-- end row-->
+</body>
+</html>

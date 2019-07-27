@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> :: My Travel Website ::</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+ <link type="text/css" href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+ <div class="row"> <!-- start 1st row -->
+ 	<div class="col-lg-9" id="logo">
+    <!-- <h1> <a class="navbar-brand" href="index.html">Backpack2bus.ca </a> </h1> -->
+    <a href="index.html"><img src="images/logo.png"> </a>
+  </div>
+
+    <div class="col-lg-3" id="header"> <!-- start row 1 column 2 -->
+    	<ul class="nav navbar-nav">
+        	<li> <a href="#"> Login</a>  </li>
+            <li> <a href="#">Re-print/Email Tkt </a></li>
+            <li> <a href="#"> Agent-Login </a> <li>
+         </ul>
+   	</div> <!-- end row 1 column 2 -->
+  </div>   <!-- end 1st row -->
+
+<div id="wrapper" class="container"> <!-- this will disable the overflowing of data on smaller screen and align everything in wrapper even when the window is resized -->
+  <nav class="navbar navbar-default">
+  <div class="row" id="secondrow"> <!-- start 2nd row -->
+  		<div class="col-lg-12"> <!-- start row 2 col 1 -->
+        	<ul class="nav navbar-nav">
+            	<li class="active"> <a href="index.html"> Home </a></li>
+                <li> <a href="aboutus.html"> About Us </a> </li>
+                <li> <a href="modify.html"> Modify Booking </a></li>
+                <li> <a href="contactus.html"> Contact Us </a> </li>
+              </ul>
+           </div> <!-- end row 2 col 1 -->
+  </div> <!-- end 2nd row -->
+  </nav>
+
+  <div id="header-form" class="text-center">
+    <form id="tripdetails" action="TripOptions.html" class="form-inline">
+
+          <div class="row">
+            <div class="col-lg-12">
+                 <h3>Book your bus in seconds..</h3>
+            </div>
+          </div>
+
+          <div class="row" style="margin-top:20px;">
+            <div class="col-lg-12 col-md col-sm">
+              <div class="form-group">
+                 <label for="from" id="fromtxt"> From : </label>
+                 <input type="text" class="form-control" id="from" value="Brampton">
+
+                 <label for="To" id="totxt"> To : </label>
+               <input type="text" class="form-control" id="to" value="North York">
+
+
+                  <label for="ongoing" id="ongoingtxt">Ongoing date: </label>
+                  <input type="text" class="form-control" id="Ongoing">
+
+
+
+
+                  <label for="Return" id="returntxt"> Return Date: </label>
+                   <input type="text" class="form-control" id="returndate">
+
+
+
+
+          </div> <!-- end form group div -->
+        </div> <!-- close column -->
+      </div> <!-- close row div -->
+
+      <div class="row" style="margin-top:10px;">
+          <div class="col-lg-12" id="buttondiv">
+              <input type="submit" class="btn btn-primary" value="Book Now" id="bookbtn">
+          </div>
+      </div> <!-- end row -->
+    </form>
+
+    <div class="row">
+      <div class="col-lg-12 text-center" id="header-frm-img">
+        <img src="images/img-box1.jpg" id="img-save" alt="Save on your 1st booking" />
+      </div> <!-- close column -->
+    </div> <!-- close row -->
+
+  </div> <!--end header-form div -->
+
+    <div class="row" id="promo"> <!-- row for current promotions -->
+      <div class="col-lg-12 text-center">
+         <img src="images/promo1.png" id="promo1" alt="promo1" width='180' height="370">
+         <img src="images/promo2.png" id="promo2" alt="promo2" width="180" height="370">
+         <img src="images/promo3.png" id="promo3" alt="promo3">
+      </div> <!-- end column -->
+    </div> <!-- end row -->
+
+
+<div class="row facts">
+  <div class="col-lg-12 text-center">
+      <h3 class="text-center"> THE NUMBERS ARE GROWING </h3>
+  </div>
+</div>
+
+<div class="row facts" style="margin-top:0px;">
+      <div class="col-lg-4 text-center">
+      <p> CUSTOMERS </p> <p style="color:#8DDFF4; font-size:25px;"> 10 M </p> <p> Backpack2bus is trusted by over 10 million happy customers </p>
+    </div>
+
+    <div class="col-lg-4 text-center">
+      <p> CANADIAN </p> <p style="color:#8DDFF4; font-size:25px;"> 100% </p> <p> Backpack2bus is 100% Canadian Owned brand started originally from Toronto. </p>
+    </div>
+
+    <div class="col-lg-4 text-center">
+      <p> TICKETS </p> <p style="color:#8DDFF4; font-size:25px;"> 80M+ </p> <p> Backpack2bus has booked over 80M+ tickets so far and continuing..</p>
+    </div>
+  </div> <!-- end row facts -->
+
+
+</div> <!-- end wrapper -->
+
+    <div id="footer" class="row">
+         <div class="col-lg-3">
+           <h1> Shortcut links </h1>
+              <ul>
+                <li> <a href="#" class="btn"> Contact us </a> </li>
+                <li> <a href="#" class="btn"> Mobile Version </a> </li>
+                <li> <a href="#" class="btn"> Current offers </a> </li>
+                <li> <a href="#" class="btn"> Values </a> </li>
+              </ul>
+         </div>
+
+         <div class="col-lg-3">
+           <h1> Info </h1>
+              <ul>
+                <li> <a href="#" class="btn"> Terms and conditions </a> </li>
+                <li> <a href="#" class="btn"> Privacy Policy </a> </li>
+                <li> <a href="#" class="btn"> Frequently Asked Questions </a> </li>
+                <li> <a href="#" class="btn"> Refund Policy </a> </li>
+              </ul>
+         </div>
+
+         <div class="col-lg-3">
+           <h1> Associates </h1>
+              <ul>
+                <li> <a href="#" class="btn"> XYZ Travels </a> </li>
+                <li> <a href="#" class="btn"> ABC Travels </a> </li>
+                <li> <a href="#" class="btn"> DEF Travels </a> </li>
+                <li> <a href="#" class="btn"> GHI Travels </a> </li>
+              </ul>
+         </div>
+
+         <div class="col-lg-3">
+           <p>
+             Backpack2bus is the world's best online bus ticket booking service trusted by over 17 million happy customers globally.
+             Backpack2bus offers bus ticket booking through its website,iOS and Android mobile apps for all major routes.
+           </p>
+
+           <p>
+             Copyright &copy; 2019 Backpack2bus.com . All rights reserved. <br>
+             Site designed by: <a href="#" style="color:white;"> Aarjav </a>
+           </p>
+         </div>
+     </div> <!-- end row-->
+</body>
+</html>
